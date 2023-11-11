@@ -95,6 +95,7 @@
 .banner_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 .banner_content .left_content {
@@ -140,27 +141,99 @@
 
 /* Advantage section */
 
-#advantage{
+.advantens_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
-.advantens_content.left_advantence{}
+ .advantens_content .left_advantence{
+    border: 1px solid red;
+   
+}
 
-.advantens_content.left_advantence .exprience{}
-.advantens_content.left_advantence .exprience span{}
-.advantens_content.left_advantence .exprience h3{}
-.advantens_content.left_advantence .Client .top{}
-.advantens_content.left_advantence .Client .bootm{}
+.advantens_content .left_advantence .exprience{
+    border: 1px solid grey;
+    width: 50%;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+}
+.advantens_content .left_advantence .exprience h2 span:nth-child(1){
+ display: block;
+ font-size: 80px;
+ text-align: center;
+ font-family: sans-serif;
+ color: rgb(248, 16, 16);
 
-.advantens_content.right_advantance{}
+}
+.advantens_content .left_advantence .exprience h2 span:nth-child(2){
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: sans-serif; 
+  line-height:20px ;
+
+}
+
+.advantens_content .left_advantence .claintes{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+    width: 50%;
+    margin-top: 15px;
+}
+.advantens_content .left_advantence .claintes .parcent{
+  margin: 0;
+  color: rgb(221, 17, 17);
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+.advantens_content .left_advantence .claintes .satis{
+    line-height: 35px;
+    margin: 0;
+}
+.advantens_content.left_advantence .claintes .satis .top{
+     
+}
+.advantens_content.left_advantence .claintes .satis .bootm{
+    
+line-height: 5px;
+}
+
+.right_advantance{
+    border: 1px solid red;
+
+}
 .advantens_content.right_advantance h2{}
 .advantens_content.right_advantance p{}
 
 
 
-.advantens_content.right_advantance .advantage_list{}
-.advantens_content.right_advantance .advantage_list .all_item{}
-.advantens_content.right_advantance .advantage_list .all_item .top{}
-.advantens_content.right_advantance .advantage_list .all_item .bootom{}
+.advantens_content .right_advantance .advantage_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    gap: 20px;
+  
+}
+.advantens_content .right_advantance .advantage_list .all_item{
+    border: 1px solid red;
+    line-height: 20px;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.021);
+   
+}
+.advantens_content .right_advantance .advantage_list .all_item .top{
+  display: block;
+}
+.advantens_content.right_advantance .advantage_list .all_item .bootom{
+
+}
 
 
 
