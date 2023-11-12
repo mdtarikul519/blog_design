@@ -236,6 +236,65 @@ line-height: 5px;
 }
 
 
+/* cammon headding */
+
+
+.cammon_heading {
+   text-align: center;
+   padding: 0;
+   margin: 0; 
+
+   
+}
+
+.cammon_heading h1{
+    font-family: 'Poppins', sans-serif; 
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.cammon_heading p{
+   font-size: 14px;
+   line-height: 20px;
+   max-width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'Poppins', sans-serif; 
+}
+
+.services_content{
+}
+.services_content ul{
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.services_content ul li{
+    border: 1px solid red;
+
+
+}
+.services_content ul li a{
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 25px;
+    transition-duration: .3s;
+}
+
+.services_content ul li a:hover{
+    background-color: #02ff02;
+    color: white;
+    
+}
+
+
 
 
 
